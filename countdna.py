@@ -1,5 +1,5 @@
 import fileinput 
-for sequence in fileinput.input('./rosalind_dna.txt''./rosalind_dna.txt'):
+for sequence in fileinput.input('./rosalind_dna.txt'):
     a_count=0
     c_count=0
     g_count=0
