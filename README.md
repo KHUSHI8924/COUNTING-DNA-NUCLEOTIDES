@@ -1,9 +1,10 @@
 # COUNTING-DNA-NUCLEOTIDES
 Counting nucleotides of DNA [ 'A' , 'G' , 'C' , 'T' ] 
 
+"""
+
 Rosalind DNA (http://rosalind.info/problems/dna/)
 
-"""
 Problem
 
 A string is simply an ordered collection of symbols selected from some alphabet and formed into a word; the length of a string is the number of symbols that it contains.
@@ -21,5 +22,6 @@ AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
 Sample Output
 
 20 12 17 21
+
 """
 
