@@ -1,10 +1,11 @@
-import fileinput 
-for sequence in fileinput.input('./rosalind_dna.txt'):
+i=input(str("Enter the nucleotide of DNA for counting:"))
+a=i.upper()
+for sequence in a:
     a_count=0
     c_count=0
     g_count=0
     t_count=0
-    for base in sequence:
+    for base in a:
         if base=='A':
             a_count+=1
         elif base=="C":
